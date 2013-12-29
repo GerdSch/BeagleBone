@@ -2,7 +2,7 @@
 
 import string
 
-f = open("/proc/distance_me007","r")
+f = open("/proc/runtime_me007","r")
 d = f.readline()
 val = d.split(":")
 dist = string.atof(val[1])/5764

@@ -32,7 +32,7 @@
 #include <asm/uaccess.h>	/* for copy_from_user */
 
 #define PROCFS_MAX_SIZE		1024
-#define PROCFS_NAME 		"distance_me007"
+#define PROCFS_NAME 		"runtime_me007"
 
 #define DRV_NAME           "me007"
 
