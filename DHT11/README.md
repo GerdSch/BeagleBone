@@ -8,10 +8,11 @@ insmod dht11.ko			install the module into the running kernel
 cat /proc/dht11_data	read the raw data provided by the kernel module --> if Status = 0 the values are valid
 ./get_dht11_values.py 	Pyhton script to read the values (read will be repeated until the values are valid)
 
-##Hardware setup
-+		P9/3 - VDD_3V3B
-out		P9/12 - GPIO1_28	--> output/input data line
-- 		P9/1 - D GND
+##Hardware setup                          
++		P9/3 - VDD_3V3B                                
+out		P9/12 - GPIO1_28	--> output/input data line                     
+- 		P9/1 - D GND                       
+
 
 
  

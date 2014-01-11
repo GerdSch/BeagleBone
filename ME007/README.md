@@ -8,14 +8,15 @@ insmod distance_me007.ko	install the module into the running kernel
 cat /proc/runtime_me007		read the raw data provided by the kernel module 
 ./get_disctance.py 			Pyhton script to read the runtime and calculate the distance in mm
 
-##Hardware setup
-1 VCC		- P9/6	- 	VDD_5V
-2 Trigger	- P8/12 -	GPIO1_12
-3 Echo		- P9/15	- 	GPIO1_16
-4 Out		- no connection
-5 GND		- P9/1	-	D_GND
+##Hardware setup              
+1 VCC		- P9/6	- 	VDD_5V               
+2 Trigger	- P8/12 -	GPIO1_12                   
+3 Echo		- P9/15	- 	GPIO1_16               
+4 Out		- no connection                   
+5 GND		- P9/1	-	D_GND                  
+           
+P9/15: a 100Ohm is used to ensure the right level                    
 
-P9/15: a 100kOhm is used to ensure the right level
 
 
  
